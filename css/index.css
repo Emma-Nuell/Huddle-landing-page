@@ -148,13 +148,14 @@ button:active {
 }
 @media screen and (max-width: 576px) {
         .header {
-                padding: 15px 20px 20px;
+                padding: 15px 15px 20px;
                 margin-bottom: 40px;
                 /* max-height: fit-content; */
             }
         
             .header .logo-header {
-                margin-bottom: 15px;
+                /* margin-bottom: 15px; */
+                padding: 0 0;
             }
         
             .logo {
@@ -254,7 +255,7 @@ main {
         }
     
         .section-content h3 {
-            line-height: 27px;
+            line-height: 35px;
             margin-bottom: 10px;
         }
     
@@ -304,11 +305,12 @@ main {
 @media screen and (max-width: 576px) {
 .start-wrap {
         flex-direction: column;
+        width: 100%;
     }
 
     .start {
         /* min-width: fit-content; */
-        left: 2vw;
+        width: 80%;
         /* max-height: fit-content; */
         padding: 20px 17px;
         border-radius: 10px;
@@ -500,8 +502,8 @@ main {
     }
 
     .copyright {
-        width: 50%;
-        left: 25vw;
+        width: 60%;
+        left: 20vw;
         bottom: 1.5vh;
     }
 }
