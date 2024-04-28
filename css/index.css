@@ -312,16 +312,19 @@ main {
         /* min-width: fit-content; */
         width: 80%;
         /* max-height: fit-content; */
-        padding: 20px 17px;
+        padding: 15px 17px;
         border-radius: 10px;
     }
 
     .start-button {
         margin-bottom: 7px;
+        padding: 10px 20px;
+        margin-top: 10px;
     }
 
     .start h2 {
         font-weight: bold;
+        line-height: 28px;
     }
 }
 
@@ -502,8 +505,8 @@ main {
     }
 
     .copyright {
-        width: 60%;
-        left: 20vw;
+        width: 70%;
+        left: 15vw;
         bottom: 1.5vh;
     }
 }
