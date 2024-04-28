@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign-up.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <main>
+        <a href="../index.html">
+        <img src="../images/logo.png" alt="Logo" class="logo">
+        </a>
+        <form id="form">
+            <div class="main">
+                <h2>Create an account</h2>
+                <div class="input-container">
+                    <label for="fname">First Name</label>
+                    <input type="text" required placeholder="Enter your first name" id="fname">
+                </div>
+                <div class="input-container">
+                    <label for="lname">Last Name</label>
+                    <input type="text" required placeholder="Enter your last name" id="lname">
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" required placeholder="Enter your email" id="email">
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" inputmode="tel" required placeholder="Enter Phone Number" id="phone">
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" required placeholder="********" id="password">
+                    <p id="password-description"></p>
+                    <p id="passwordStrength"></p>
+                </div>
+            </div>
+            <p id="error"></p>
+            <button id="signUp">Sign Up</button>
+            <p class="terms">By signing up you accept our <a href="#">terms and conditions</a>
+                & <a href="#">privacy policy</a></p>
+            <p class="register">Already have an account? <a href="./log-in.html">Login</a></p>
+        </form>
+    </main>
+
+    <script src="../js/sign-up.js" type="module"></script>
+</body>
+
+</html>
